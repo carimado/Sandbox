@@ -9,7 +9,7 @@ nav {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: #f2f2f2;
+    background-color: #26324D;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -67,7 +67,7 @@ nav {
         right: 0px;
         height: 92vh;
         top: 8vh;
-        background-color: #5d4954;
+        background-color: #4B6299;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -107,4 +107,22 @@ nav {
 
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* About Me */
+.about-me {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    background-color: #4B6299;
+}
+
+.about-me-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    height: 50%;
 }
